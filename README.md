@@ -1,5 +1,5 @@
 # ETL pipeline with Kafka
-<img width="923" alt="Screen Shot 2022-11-11 at 2 23 58 PM" src="https://user-images.githubusercontent.com/72933965/201425697-900b572d-7962-4bfd-8ed2-e1e0c0fb680a.png">
+<img width="916" alt="Screen Shot 2022-11-11 at 2 45 05 PM" src="https://user-images.githubusercontent.com/72933965/201428156-ae1347cb-4fbb-481c-bcc9-de40936a7113.png">
 
 ### Befor run this up you should:
 - download and install Apache Kafka (https://kafka.apache.org/)
@@ -14,11 +14,10 @@
 
 #### MongoDB
 - bootstrap_servers : localhost:9092
-- mongo_client : mongodb+srv://<user_name>:<password>@cluster0.uplpgvn.mongodb.net/?retryWrites=true&w=majority 
-  change <user_name>:<password> on yours
+- mongo_client : change <user_name> and <password> on yours
 - db_name : choose the database name in MongoDB
 
-- comNum : /dev/tty.usbserial-506J19110
+- comNum : check the port number in your device
 - set up duration of experiment, current and voltage
 
 #### PostgresSQL
@@ -27,4 +26,9 @@
 - password : set up your password
 - postgres_table_name : choose the table name
 - load_to_postgres : choose the file name where clean data will be saved
+  
+### To run the app execute the following commands:
+- tested im Python 3.9.12
+- pip install -r requirements.txt
+- sh run_app.sh
 

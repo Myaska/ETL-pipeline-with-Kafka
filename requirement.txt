@@ -1,0 +1,5 @@
+pyserial==3.5
+pykafka==2.8.0 
+pymongo==4.3.2 
+pandas==1.4.3
+psycopg2-binary==2.9.3

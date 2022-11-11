@@ -3,8 +3,8 @@
 
 ### Befor run this up you should:
   - download and install Apache Kafka (https://kafka.apache.org/)
-  - go to the kafka-folder and run the following commands: \
-    - *bin/zookeeper-server-start.sh config/zookeeper.properties* \
+  - go to the kafka-folder and run the following commands: 
+    - *bin/zookeeper-server-start.sh config/zookeeper.properties* 
     - *bin/kafka-server-start.sh config/server.properties*
   - create a DataBase in PostgresSQL where you want to load data
 

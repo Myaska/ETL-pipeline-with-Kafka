@@ -28,7 +28,7 @@
   - load_to_postgres : choose the file name where clean data will be saved
   
 ### To run the app execute the following commands:
-  - tested im Python 3.9.12
+  - tested in Python 3.9.12
   - pip install -r requirements.txt
   - sh run_app.sh
 

@@ -2,33 +2,33 @@
 <img width="916" alt="Screen Shot 2022-11-11 at 2 45 05 PM" src="https://user-images.githubusercontent.com/72933965/201428156-ae1347cb-4fbb-481c-bcc9-de40936a7113.png">
 
 ### Befor run this up you should:
-- download and install Apache Kafka (https://kafka.apache.org/)
-- go to the kafka-folder and run the following commands:
+  - download and install Apache Kafka (https://kafka.apache.org/)
+  - go to the kafka-folder and run the following commands:
   bin/zookeeper-server-start.sh config/zookeeper.properties
   bin/kafka-server-start.sh config/server.properties
-- create a DataBase in PostgresSQL where you want to load data
+  - create a DataBase in PostgresSQL where you want to load data
 
 ### Change parameters in params.yml:
-- file_name : choose the file name 
-- path : put the path to the folder with all this files in your computer
+  - file_name : choose the file name 
+  - path : put the path to the folder with all this files in your computer
 
 #### MongoDB
-- bootstrap_servers : localhost:9092
-- mongo_client : change <user_name> and <password> on yours
-- db_name : choose the database name in MongoDB
+  - bootstrap_servers : localhost:9092
+  - mongo_client : change <user_name> and <password> on yours
+  - db_name : choose the database name in MongoDB
 
-- comNum : check the port number in your device
-- set up duration of experiment, current and voltage
+  - comNum : check the port number in your device
+  - set up duration of experiment, current and voltage
 
 #### PostgresSQL
-- dbname : choose the database name in PostgresSLQ
-- user : set up your username
-- password : set up your password
-- postgres_table_name : choose the table name
-- load_to_postgres : choose the file name where clean data will be saved
+  - dbname : choose the database name in PostgresSLQ
+  - user : set up your username
+  - password : set up your password
+  - postgres_table_name : choose the table name
+  - load_to_postgres : choose the file name where clean data will be saved
   
 ### To run the app execute the following commands:
-- tested im Python 3.9.12
-- pip install -r requirements.txt
-- sh run_app.sh
+  - tested im Python 3.9.12
+  - pip install -r requirements.txt
+  - sh run_app.sh
 

@@ -1,20 +1,23 @@
-file_name : etl_kafka
-path : /Users/username/Desktop/
+location:
+  file_name : etl_kafka
+  path : /Users/username/Desktop/
 
-bootstrap_servers : localhost:9092
-mongo_client : mongodb+srv://<user_name>:<password>@cluster0.uplpgvn.mongodb.net/?retryWrites=true&w=majority
-db_name : db_name
+mongodb:
+  bootstrap_servers : localhost:9092
+  mongo_client : mongodb+srv://<user_name>:<password>@cluster0.uplpgvn.mongodb.net/?retryWrites=true&w=majority
+  db_name : db_name
 
-comNum : /dev/tty.usbserial-281P561120
-hour : 12
-minute : 0
-sec : 0
-volt : 15
-curr : 0.25
+device_settings:
+  comNum : /dev/tty.usbserial-281P561120
+  hour : 12
+  minute : 0
+  sec : 0
+  volt : 15
+  curr : 0.25
 
-dbname : dynamo
-user : user
-password : password
-
-postgres_table_name : electroplating_data
-load_to_postgres : clean_data
+postgres:
+  dbname : dynamo
+  user : user
+  password : password
+  postgres_table_name : electroplating_data
+  load_to_postgres : clean_data

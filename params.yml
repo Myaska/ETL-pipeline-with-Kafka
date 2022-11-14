@@ -16,7 +16,7 @@ device_settings:
   curr : 0.25
 
 postgres:
-  dbname : dynamo
+  dbname : electroplating_db
   user : user
   password : password
   postgres_table_name : electroplating_data

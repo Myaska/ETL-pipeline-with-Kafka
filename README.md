@@ -1,7 +1,7 @@
 # ETL pipeline with Kafka
 <img width="916" alt="Screen Shot 2022-11-11 at 2 45 05 PM" src="https://user-images.githubusercontent.com/72933965/201428156-ae1347cb-4fbb-481c-bcc9-de40936a7113.png">
 
-### Befor run this app you should:
+### Before run this app you should:
   - download and install Apache Kafka (https://kafka.apache.org/)
   - go to the kafka-folder and run the following commands: 
     - *bin/zookeeper-server-start.sh config/zookeeper.properties* 

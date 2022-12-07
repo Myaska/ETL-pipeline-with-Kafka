@@ -18,7 +18,6 @@
   - bootstrap_servers : localhost:9092
   - mongo_client : change `<user_name>` and `<password>` on yours
   - db_name : choose the database name in MongoDB
-
   - comNum : check the port number in your device
   - set up duration of experiment, current and voltage
 

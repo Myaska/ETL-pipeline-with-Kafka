@@ -6,8 +6,8 @@
   - go to the kafka-folder in CLI:
       - `cd 'derectory kafka-folder'`
   - run the following commands in CLI: 
-      - `*bin/zookeeper-server-start.sh config/zookeeper.properties*`
-      - `*bin/kafka-server-start.sh config/server.properties*`
+      - `bin/zookeeper-server-start.sh config/zookeeper.properties`
+      - `bin/kafka-server-start.sh config/server.properties`
   - create a DataBase in PostgresSQL where you want to load data
 
 ### Change parameters in params.yml:
